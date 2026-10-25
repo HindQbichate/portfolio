@@ -6,6 +6,8 @@ st.set_page_config(page_title=PROFILE["name"], page_icon=":briefcase:", layout="
 with st.sidebar:
     st.image("assets/photo.png", width=120)
     st.markdown(f"### {PROFILE['name']}")
+    st.markdown(f"[GitHub]({PROFILE['github']})")      # NOUVEAU
+    st.markdown(f"[LinkedIn]({PROFILE['linkedin']})")  # NOUVEAU
 
 pages = [
     st.Page("pages/home.py", title="About me", icon=":material/person:", default=True),
