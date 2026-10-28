@@ -3,20 +3,19 @@
 # - PROJECTS est une liste de dictionnaires, et "tags" est une liste.
 # - TIMELINE est une liste de tuples (années, formation).
 #
-# J'ai choisi une liste de dictionnaires pour les projets parce que 
+# Pourquoi une liste de dictionnaires pour les projets ?
 # - La liste permet de parcourir les projets facilement avec une boucle for,
 #   pour les filtrer et les trier.
 # - Le dictionnaire donne un nom à chaque info (ex. projet["year"]), c'est plus clair.
 # - Pour ajouter un projet, il suffit d'ajouter un dictionnaire, sans changer le code.
-
 
 PROFILE = {
     "name": "Hind Qbichate",
     "title": "M1 student in Health and Artificial Intelligence (SIA)",
     "city": "Dijon, France",
     "email": "hind.qbichate@etu.u-bourgogne.fr",
-    "github": "https://github.com/HindQbichate",            
-    "linkedin": "https://www.linkedin.com/in/hind-qbichate-b607b4234",  
+    "github": "https://github.com/HindQbichate",
+    "linkedin": "https://www.linkedin.com/in/hind-qbichate-b607b4234",
     "about": "I am a first-year master's student in Health and Artificial Intelligence "
              "at the Université de Bourgogne, passionate about applying AI and data "
              "engineering to the medical field. With a research-oriented profile and "
@@ -51,10 +50,10 @@ PROJECTS = [
         "year": 2025,
         "link": "https://github.com/HindQbichate/ApplicationSuiviGrossesse",
     },
-        {
+    {
         "title": "Skin care e-commerce website",
-        "description": "Team project online shop for cosmetic products (make-up, skin care) "
-                       "built with HTML, CSS and JavaScript.",
+        "description": "Team project: an online shop for cosmetic products "
+                       "(make-up, skin care) built with HTML, CSS and JavaScript.",
         "tags": ["Web", "JavaScript"],
         "year": 2024,
         "link": "https://github.com/IliassNAJEME/TheBeauty",
