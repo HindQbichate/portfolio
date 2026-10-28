@@ -1,0 +1,19 @@
+n,algorithm,time
+250,bubble sort,0.001241
+250,insertion sort,0.000609
+250,sorted (Python),1.7e-05
+500,bubble sort,0.004951
+500,insertion sort,0.002317
+500,sorted (Python),3.2e-05
+1000,bubble sort,0.019593
+1000,insertion sort,0.00896
+1000,sorted (Python),7.3e-05
+1500,bubble sort,0.04655
+1500,insertion sort,0.021786
+1500,sorted (Python),0.000116
+2000,bubble sort,0.088635
+2000,insertion sort,0.039445
+2000,sorted (Python),0.00016
+2500,bubble sort,0.136434
+2500,insertion sort,0.062947
+2500,sorted (Python),0.000216
